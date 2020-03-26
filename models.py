@@ -11,3 +11,17 @@ class Lamp:
         
     def get_state(self): #Não percebo o porque desta "Função", nao podiamos simplesmente chamar Lamp.state?
         return self.state
+
+        
+class ColorLamp:
+    
+    def __init__(self):
+        self.color = "White"
+    
+    def set_color(self, color):
+        self.color = color
+    
+    def get_color(self):
+        return self.color
+
+    
