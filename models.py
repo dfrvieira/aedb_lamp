@@ -4,3 +4,5 @@ class Lamp:
     
     def turn_on(self):
         self.state = True
+
+        
